@@ -1,6 +1,6 @@
 ﻿using System.Web.Optimization;
 
-namespace MvcTwitterBootstrap
+namespace MvcBootstrap
 {
     public class BundleConfig
     {

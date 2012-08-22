@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcTwitterBootstrap", "MvcTwitterBootstrap\MvcTwitterBootstrap.csproj", "{49764760-73E5-41F9-84D1-45E55E4F9BF4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcTwitterBootstrap", "MvcBootstrap\MvcBootstrap.csproj", "{49764760-73E5-41F9-84D1-45E55E4F9BF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

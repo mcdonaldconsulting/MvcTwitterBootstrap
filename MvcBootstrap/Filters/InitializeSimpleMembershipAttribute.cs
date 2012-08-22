@@ -3,10 +3,10 @@ using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
 using System.Threading;
 using System.Web.Mvc;
+using MvcBootstrap.Models;
 using WebMatrix.WebData;
-using MvcTwitterBootstrap.Models;
 
-namespace MvcTwitterBootstrap.Filters
+namespace MvcBootstrap.Filters
 {
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = false, Inherited = true)]
     public sealed class InitializeSimpleMembershipAttribute : ActionFilterAttribute

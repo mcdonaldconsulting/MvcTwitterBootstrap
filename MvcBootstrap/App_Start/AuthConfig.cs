@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Microsoft.Web.WebPages.OAuth;
-using MvcTwitterBootstrap.Models;
-
-namespace MvcTwitterBootstrap
+﻿
+namespace MvcBootstrap
 {
     public static class AuthConfig
     {
