@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "About";
+    ViewBag.ActiveTab = "aboutTab";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1>
+    <h2>@ViewBag.Message</h2>
+</hgroup>
+
+<div class="row-fluid">
+    <div class="span8">
+        <p>
+            Use this area to provide additional information.
+        </p>
+
+        <p>
+            Use this area to provide additional information.
+        </p>
+
+        <p>
+            Use this area to provide additional information.
+        </p>
+    </div>
+    <div class="span4">
+        <h3>Aside Title</h3>
+        <p>
+            Use this area to provide additional information.
+        </p>
+        <ul>
+            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+            <li>@Html.ActionLink("About", "About", "Home")</li>
+            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+        </ul>
+    </div>
+</div>
